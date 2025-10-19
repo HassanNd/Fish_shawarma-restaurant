@@ -7,14 +7,14 @@ const Carditem = ({ isAdmin = false }) => {
     { name: "Fish shawarama",ingredients:"shawarma fish + fries + pickles + tartar sauce+ special sauce", price: "400.000", image: "sandwiches/fishshawarma.jpg" },
     { name: "Fish 3al fahem",ingredients:"fish 3al fahem + garlic+ pickles+ fries +special sauce", price: "700.000", image: "sandwiches/fish3alfahem.jpg" },
     { name: "Fish harra",ingredients:"special fish with spicy mix !! ", price: "450.000", image: "sandwiches/fishharra.jpg" },
-    { name: "Fajita shrimp",ingredients:"fresh avocado sauce +corn + pickles +iceberg ", price: "750.000", image: "sandwiches/fajitashrimp.jpg" },
+    { name: "Fajita shrimp",ingredients:"shrimps +fresh avocado sauce +corn + pickles +iceberg ", price: "750.000", image: "sandwiches/fajitashrimp.jpg" },
     { name: "classic shrimp",ingredients:" shrimps +pickles + tartar sauce+ icberg +lemon  ", price: "550.000", image: "sandwiches/classicshrimp.jpg" },
     { name: "shrimp panne",ingredients:"panne shrimps +tartar sauce +cocktail sauce +pickles +iceberg ", price: "550.000", image: "sandwiches/shrimppanne.jpg" },
     { name: "Dynamite shrimp",ingredients:"shrimps + dynamite sauce + pickles + iceberg + habat Al baraka ", price: "600.000", image: "sandwiches/dynamiteshrimp.jpg" },
-    { name: "Smoked turkey shrimp",ingredients:"smoked turkey +tartar sauce +mozzarella cheese +pickles + iceberg ", price: "700.000", image: "sandwiches/smokedturkeyshrimp.jpg" },
+    { name: "Smoked turkey shrimp",ingredients:"shrimps +smoked turkey +tartar sauce +mozzarella cheese +pickles + iceberg ", price: "700.000", image: "sandwiches/smokedturkeyshrimp.jpg" },
     { name: "Mexican shrimp",ingredients:"mexican shrimps +mexican sauce +mozzarella cheese +halapeno + iceberg ", price: "700.000", image: "sandwiches/mexicanshrimp.jpg" },
-    { name: "shrimp and crap",ingredients:"shrimps + crab(hallal) + lemon +tartar sauce +pickles + iceberg ", price: "650.000", image: "sandwiches/shrimpcrab.jpg" },
-    { name: "crab",ingredients:" crab(hallal) + lemon +tartar sauce +pickles + iceberg ", price: "450.000", image: "sandwiches/crab.jpg" },
+    { name: "shrimp and crab",ingredients:"shrimps + crab(hallal) + lemon +tartar sauce +pickles + iceberg ", price: "650.000", image: "sandwiches/shrimpcrab.jpg" },
+    { name: "crab sandwich",ingredients:" crab(! Hallal !) + lemon +tartar sauce +pickles + iceberg ", price: "450.000", image: "sandwiches/crab.jpg" },
 
   ];
 

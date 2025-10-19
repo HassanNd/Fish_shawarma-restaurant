@@ -24,7 +24,7 @@ const Carditem4 = ({ isAdmin = false }) => {
       image: "Diet/3alfahemdiet.jpg",
     },
     {
-      name: "Crab",
+      name: "Crab ",
       ingredients: "Crab +tartar sauce + pickles +iceberg",
       price: "450.000",
       image: "Diet/Crabdiet.jpg",

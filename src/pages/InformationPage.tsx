@@ -44,12 +44,12 @@ export const InformationPage = () => {
       
       <Typography sx={{display:"flex" , gap:"4px"}}>
         <KeyOutlinedIcon sx={{color:"#FED16A"}}/>
-        <Typography>OPEN-TIME: 12 AM</Typography>
+        <Typography>OPEN-TIME: 12 PM</Typography>
       </Typography>
 
       <Typography sx={{display:"flex" , gap:"4px"}}>
         <LockRoundedIcon sx={{color:"#FED16A"}}/>
-        <Typography>CLOSING-TIME: 11 PM</Typography>
+        <Typography>CLOSING-TIME: 11:30 PM</Typography>
       </Typography>
 
       <Typography sx={{display:"flex" , gap:"4px"}}>
