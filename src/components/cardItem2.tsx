@@ -26,14 +26,14 @@ const Carditem2 = ({ isAdmin = false }) => {
     {
       name: "Shrimparella Burger",
       ingredients:
-        "fish+ cocktail sauce +mozzarella paty  +tartar sauce + pickles +iceberg",
+        "shrimps + cocktail sauce +mozzarella paty  +tartar sauce + pickles +iceberg",
       price: "650.000",
       image: "burgers/Shrimparella.jpg",
     },
     {
       name: "zinger shrimp burger",
       ingredients:
-        "fish +cheddar sauce +halapeno +iceberg +smoked Turkey +dynamite sauce",
+        "shrimps +cheddar sauce +halapeno +iceberg +smoked Turkey +dynamite sauce",
       price: "650.000",
       image: "burgers/zingershrimp.jpg",
     },
