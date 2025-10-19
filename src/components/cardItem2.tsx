@@ -24,7 +24,7 @@ const Carditem2 = ({ isAdmin = false }) => {
       image: "burgers/lebanesefishburger.jpg",
     },
     {
-      name: "Fish burger",
+      name: "Shrimparella Burger",
       ingredients:
         "fish+ cocktail sauce +mozzarella paty  +tartar sauce + pickles +iceberg",
       price: "650.000",
