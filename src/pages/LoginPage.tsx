@@ -1,5 +1,4 @@
 import {
-  Alert,
   Box,
   Button,
   Container,
@@ -9,10 +8,7 @@ import {
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import LockPersonIcon from "@mui/icons-material/LockPerson";
 import HttpsIcon from "@mui/icons-material/Https";
-import { useRef, useState } from "react";
-import { BaseURL } from "../constants/BasrUrl";
-import { useAuth } from "../context/Auth/AuthContext";
-import { useNavigate } from "react-router-dom";
+
 
 
 export const LoginPage = () => {

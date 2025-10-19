@@ -1,20 +1,19 @@
-import { useState, type SetStateAction } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { BottomNavigation, BottomNavigationAction, Paper } from "@mui/material";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import InfoIcon from "@mui/icons-material/Info";
-import LoginIcon from "@mui/icons-material/Login";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
-import { useNavigate } from "react-router-dom";
-import { useAuth } from "../context/Auth/AuthContext";
+import LoginIcon from "@mui/icons-material/Login";
 
 const NavBar = () => {
   const [value, setValue] = useState(0);
   const navigate = useNavigate();
 
-
-
-  const handleChange = (event: any, newValue: SetStateAction<number>) => {
+  // Fixed handleChange with proper typing
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
+
     switch (newValue) {
       case 0:
         navigate("/");
@@ -33,19 +32,17 @@ const NavBar = () => {
     }
   };
 
-  
-
   return (
     <Paper
       elevation={3}
       sx={{
-         // change to "fixed" if you want it always visible
+        position: "fixed", // so it stays at the bottom
         bottom: 0,
         left: 0,
         right: 0,
         width: "100%",
-        mt: 3,
-        border: "5px solid #16610E",
+        borderTop: "5px solid #16610E",
+        zIndex: 1000, // make sure it stays on top
       }}
     >
       <BottomNavigation

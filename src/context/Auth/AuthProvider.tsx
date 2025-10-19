@@ -1,4 +1,4 @@
-import { useEffect, useState, type FC, type PropsWithChildren } from "react";
+import {  useState, type FC, type PropsWithChildren } from "react";
 import { AuthContext } from "./AuthContext";
 
 

@@ -40,8 +40,7 @@ const WhatsappButtinOnclick=()=>{
   }, 500)
 }
 const OWNERButtinOnclick=()=>{
-  const phone="96178704520";
-  const message="Hello , I want to book and order !"
+
 
   const appLink=`whatsapp://send?phone=03931975&text=HELLO_VERTEX_SOFTWARE`
   const webLink=`https://wa.me/03931975?text=HELLO_VERTEX_SOFTWARE`
